@@ -1,6 +1,6 @@
 import './App.css';
 import "./index.css";
-import { BsFillMoonStarsFill, BsGithub, BsHouse, } from 'react-icons/bs';
+import { BsFillMoonStarsFill, BsGithub, } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillTwitterCircle, } from 'react-icons/ai';
 import logo from "./images/Untitled.jpg"
 import devImg from "./images/dev-ed-wave.png"
