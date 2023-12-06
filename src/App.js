@@ -14,7 +14,7 @@ import resume from "./images/Koyejo 's Resume-hackerresume.pdf"
 
 function App() {
   return (
-    <div className="bg-white px-5 md:px-20">
+    <div className="bg-teal px-5 md:px-20">
       <section className='min-h-screen'>
         <nav className='py-10 mb-12 flex justify-between'>
           <img src={logo} alt="Looks" height="30px" width="30px" />
