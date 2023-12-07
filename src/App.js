@@ -9,12 +9,14 @@ import upsales from "./images/profits.png"
 import cart from "./images/shopping-cart.png"
 import high from "./images/high-performance.png"
 import resume from "./images/Koyejo 's Resume-hackerresume.pdf"
+import commerce from "./images/commerce-project.png"
+import quotee from "./images/stoicquotes.png"
 
 
 
 function App() {
   return (
-    <div className="bg-teal-400 px-5 md:px-20">
+    <div className="bg-slate-200 px-5 md:px-20">
       <section className='min-h-screen'>
         <nav className='py-10 mb-12 flex justify-between'>
           <img src={logo} alt="Looks" height="30px" width="30px" />
@@ -75,6 +77,16 @@ function App() {
           <img src={upsales} alt="Mobile" width={80} height={80} className='mx-auto' />
           <h3 className='text-2xl my-4 pt-3 font-medium'>Local SEO</h3>
           <p> Get your business discovered by Nigerians searching online. With my local SEO expertise, I'll optimize your website to rank higher in Nigerian search results. From targeting relevant Nigerian keywords to building quality backlinks from local directories, I'll ensure your website gets the attention it deserves from Nigerian customers.</p>
+        </div>
+        <div>
+          <h2 className='text-center text-4xl font-burtons'>Projects i've done as practicing Front-End</h2>
+          <h3 className='text-2xl my-4 pt-3 font-medium text-center'>E-commerce Website with styled components</h3>
+          <a href="http://commerce-project-qj9t.vercel.app"><img src={commerce} alt="Mobile" width={700} height={400} className='mx-auto' /></a>
+          <h3 className='text-2xl my-4 pt-3 font-medium text-center'>Quotes For when Down</h3>
+          <a href="https://quotes-when-down.onrender.com/"><img src={quotee} alt="Mobile" width={300} height={300} className='mx-auto' /></a>
+
+
+
         </div>
       </div>
     </div >
