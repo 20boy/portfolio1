@@ -21,6 +21,7 @@ function App() {
           <ul className='flex items-center'>
             <li className='shizzy font-bold ml-4 cursor-pointer'>Home</li>
             <li className='shizzy font-bold ml-4 cursor-pointer '>Contact</li>
+            <li className='shizzy font-bold ml-4 cursor-pointer '>About Me</li>
             <li><BsFillMoonStarsFill className='cursor-pointer text-xl ml-2' /></li>
             <a href="./images/Koyejo 's Resume-hackerresume.pdf" download={resume}> <button title='Download Resume' className=' bg-gradient-to-r  from-cyan-600 to-teal-400 text-white py-1 px-2 ml-5 rounded-lg'>Download Resume</button></a>
           </ul>
